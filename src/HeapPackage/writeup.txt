@@ -1,0 +1,25 @@
+Write a static method that accepts an array of ints and a value k. It should have a
+signature like this:
+
+public static int kthSmallest(int[] a, int k)
+
+The method should return the kth smallest value in the array:
+If k i= 1: return the smallest element in the array
+If k = 2: return the second smallest element in the array
+If k = 9: return the ninth smallest element in the array
+etc.
+
+The value of k must be greater than or equal to 1, and it must be less than or
+equal to the length of the array. Otherwise throw an IllegalArgumentException.
+
+Your method should work in the following way:
+1. Begin by creating a MaxHeap
+2., Next add k elements from the parameter array into the MaxHeap. These start out
+as your k smallest elements.
+3. For each of the remaining elements in the array
+4. Compare the element to the top of the heap.
+5. If it is smaller, remove the old max, and add the new element
+6. When you have made your way through the whole parameter array then the top of
+the heap is the kth smallest element.
+
+Write a main method that tests your kthSmallest method on three different arrays.
