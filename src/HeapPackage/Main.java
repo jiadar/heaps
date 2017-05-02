@@ -12,7 +12,7 @@ public class Main {
       int i;
       for (i=0; i<k; i++) 
          heap.add(a[i]);
-      for (i=k; i<a.length(); i++) {
+      for (i=k; i<a.length; i++) {
          if (heap.getMax() < a[i]) {
             heap.removeMax();
             heap.add(a[i]);
