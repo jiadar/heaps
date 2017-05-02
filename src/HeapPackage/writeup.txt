@@ -1,3 +1,5 @@
+This assignment was easy, just follow the formula below... Took about 15 mins.
+
 Write a static method that accepts an array of ints and a value k. It should have a
 signature like this:
 
