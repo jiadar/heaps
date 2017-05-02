@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # User Configurable 
-DEVHOME=/Users/ross/Documents/workspace/trees
+DEVHOME=/Users/ross/Documents/workspace/heaps
 VERBOSE=false
 BASE_CLASSES=""
 CLASSES="MaxHeap.java MaxHeapInterface.java Main.java" 
