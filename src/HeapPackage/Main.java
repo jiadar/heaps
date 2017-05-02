@@ -7,8 +7,6 @@ public class Main {
       
    }
 
-   */
-
    public static int kthSmallest(int[] a, int k) {
       MaxHeap<Integer> heap = new MaxHeap();
       int i;
